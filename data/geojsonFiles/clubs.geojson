@@ -1,0 +1,25 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Bogota" }, "geometry": { "type": "Point", "coordinates": [ 16.91936917035169, 52.407903684397276 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Cuba Libre" }, "geometry": { "type": "Point", "coordinates": [ 16.933275545736219, 52.406873077548056 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Pacha" }, "geometry": { "type": "Point", "coordinates": [ 16.930922521136477, 52.407960536064408 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Shanti" }, "geometry": { "type": "Point", "coordinates": [ 16.931629616912666, 52.408040281967217 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Arcy Club" }, "geometry": { "type": "Point", "coordinates": [ 16.93466002738203, 52.410041131975746 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Salsa Bar" }, "geometry": { "type": "Point", "coordinates": [ 16.952379015656071, 52.40028431817165 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Van Disel" }, "geometry": { "type": "Point", "coordinates": [ 16.933281487717533, 52.408930163965643 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Club 22" }, "geometry": { "type": "Point", "coordinates": [ 16.933168590072597, 52.408944662912702 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Klub u Bazyla" }, "geometry": { "type": "Point", "coordinates": [ 16.932694326415195, 52.411969165998812 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "8 Bitow" }, "geometry": { "type": "Point", "coordinates": [ 16.938398628475177, 52.409442100834866 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Scorpio Club" }, "geometry": { "type": "Point", "coordinates": [ 16.938284542433976, 52.408067594964642 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Czarna Owca" }, "geometry": { "type": "Point", "coordinates": [ 16.932159548097079, 52.406284153257182 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Kultowa" }, "geometry": { "type": "Point", "coordinates": [ 16.932836933966701, 52.406292853147839 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Opcja" }, "geometry": { "type": "Point", "coordinates": [ 16.929713828588859, 52.403208634405431 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Baker Street" }, "geometry": { "type": "Point", "coordinates": [ 16.927353673611545, 52.405540306261813 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "SQ Klub" }, "geometry": { "type": "Point", "coordinates": [ 16.926612114343751, 52.401490252579606 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Browar Pub Słodownia" }, "geometry": { "type": "Point", "coordinates": [ 16.926547940945579, 52.401538107156654 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Brooklyn Bridge Club" }, "geometry": { "type": "Point", "coordinates": [ 16.922048672695762, 52.408791825706167 ] } }
+]
+}

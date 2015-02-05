@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Finder | Map</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css" />
+<script src="leaflet.markercluster-src.js"></script>
+<script src="points.js"></script>
+
+
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="row">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html">Finder</a>
+				</div>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="authors.html">Authors</a></li>
+				</ul>
+				</div>
+			</div>
+		</div>
+	</nav>		
+	
+	<div class="container" id="map"></div>
+	
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<p class="col-md-3">Contact Us at:</p>
+				<a href="authors.html"><i class="col-md-2 fa fa-envelope fa-lg"></i></a>
+				<a href="https://www.facebook.com/luuukaasz"><i class="col-md-2 fa fa-facebook fa-lg"></i></a>
+				<p class="col-md-3">Source code available at:</p>
+				<a href="https://github.com/Luqqk"><i class="col-md-2 fa fa-github fa-lg"></i></a>
+    	</div>
+		</div>
+	</div>
+</body>
+
+<script>
+
+/*add basemap layer */
+var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+	maxZoom: 18,
+	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, Points &copy Luqqk'
+}),
+latlng = L.latLng(52.408, 16.933);
+
+var map = L.map('map', {center: latlng, zoom: 9, layers: [osm]});
+
+/*Icons*/
+var iconEdu = L.icon({
+    	iconUrl: 'icons/education48x48.png'
+});
+
+var iconRes = L.icon({
+	iconUrl: 'icons/restaurant48x48.png'
+});
+
+var iconPub = L.icon({
+	iconUrl: 'icons/pub48x48.png'
+});
+
+var iconClu = L.icon({
+	iconUrl: 'icons/club48x48.png'
+});
+
+/*add education layer*/
+var educationLayer = L.markerClusterGroup();		
+for (var i = 0; i < education.length; i++) {
+	var a = education[i];
+	var title = a[2];
+	var icon = iconEdu;
+	var marker = L.marker(new L.LatLng(a[0], a[1]), { icon: iconEdu});
+	marker.bindPopup(title);
+	educationLayer.addLayer(marker);
+		}
+
+	map.addLayer(educationLayer);
+
+/*add restaurants layer*/
+var restaurantsLayer = L.markerClusterGroup();		
+for (var i = 0; i < restaurants.length; i++) {
+	var a = restaurants[i];
+	var title = a[2];
+	var icon = iconRes;
+	var marker = L.marker(new L.LatLng(a[0], a[1]), {icon: iconRes});
+	marker.bindPopup(title);
+	restaurantsLayer.addLayer(marker);
+		}
+
+	map.addLayer(restaurantsLayer);
+
+/*add clubs layer*/
+var clubsLayer = L.markerClusterGroup();
+for (var i = 0; i < clubs.length; i++) {
+	var a = clubs[i];
+	var title = a[2];
+	var icon = iconClu;
+	var marker = L.marker(new L.LatLng(a[0], a[1]), {icon: iconClu});
+	marker.bindPopup(title);
+	clubsLayer.addLayer(marker);
+		}
+
+	map.addLayer(clubsLayer);
+
+/*add pubs layer*/
+var pubsLayer = L.markerClusterGroup();
+for (var i = 0; i < pubs.length; i++) {
+	var a = pubs[i];
+	var title = a[2];
+	var icon = iconPub;
+	var marker = L.marker(new L.LatLng(a[0], a[1]), { icon: iconPub });
+	marker.bindPopup(title);
+	pubsLayer.addLayer(marker);
+		}
+
+	map.addLayer(pubsLayer);
+
+/*add allObjects layer*/
+var allObjectsLayer = L.markerClusterGroup();
+for (var i = 0; i < allObjects.length; i++) {
+	var a = allObjects[i];
+	var title = a[2];
+	var marker = L.marker(new L.LatLng(a[0], a[1]), { title: title });
+	marker.bindPopup(title);
+	allObjectsLayer.addLayer(marker);
+		}
+
+	map.addLayer(allObjectsLayer);
+
+/*baselayers for legend/switcher*/
+var baseLayers = {
+    	"OSM": osm
+};
+
+/*overlayers for legend/switcher*/
+var overLayers = {
+    "Education": educationLayer,
+    "Restaurants": restaurantsLayer,
+    "Clubs": clubsLayer,
+    "Pubs": pubsLayer,
+    "All Places": allObjectsLayer
+};
+
+/*add legend/switcher to the map*/
+L.control.layers(baseLayers, overLayers).addTo(map);
+
+</script>
+
+</html>

@@ -1,0 +1,30 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Akademia Wychowania Fizycznego" }, "geometry": { "type": "Point", "coordinates": [ 16.933190274942202, 52.39897940542668 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Uniwersytet Ekonomiczny" }, "geometry": { "type": "Point", "coordinates": [ 16.918365887212872, 52.406244883521019 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Akademia Muzyczna" }, "geometry": { "type": "Point", "coordinates": [ 16.915740814940722, 52.407290715012678 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "UAM Wydział Prawa i Administracji" }, "geometry": { "type": "Point", "coordinates": [ 16.91486834194065, 52.407836965353873 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Uniwersytet Medyczny" }, "geometry": { "type": "Point", "coordinates": [ 16.890829414807115, 52.406725782330852 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "UAM Wydział Chemii" }, "geometry": { "type": "Point", "coordinates": [ 16.922109041702807, 52.467854262444796 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "UAM Wydział Fizyki" }, "geometry": { "type": "Point", "coordinates": [ 16.930374575387756, 52.466376249674958 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "UAM Wydział Matematyki i Informatyki" }, "geometry": { "type": "Point", "coordinates": [ 16.926823457211999, 52.466614040568345 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "UAM Wydział Biologii" }, "geometry": { "type": "Point", "coordinates": [ 16.92545352153644, 52.467173543485586 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "UAM Wydział Nauk Politycznych i Dziennikarstwa" }, "geometry": { "type": "Point", "coordinates": [ 16.924657581255662, 52.465758453604757 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Uniwersytet Artystyczny" }, "geometry": { "type": "Point", "coordinates": [ 16.928629629387604, 52.409939221309216 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "UAM Wydział Nauk Geologicznych i Geograficznych" }, "geometry": { "type": "Point", "coordinates": [ 16.941976935634401, 52.464175457310475 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Uniwersytet Przyrodniczy" }, "geometry": { "type": "Point", "coordinates": [ 16.903228419850247, 52.426227135382526 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Uniwersytet Przyrodniczy" }, "geometry": { "type": "Point", "coordinates": [ 16.904697848060906, 52.426945821459647 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Uniwersytet Przyrodniczy" }, "geometry": { "type": "Point", "coordinates": [ 16.903136580587081, 52.427897829131084 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Uniwersytet Przyrodniczy" }, "geometry": { "type": "Point", "coordinates": [ 16.895483308656576, 52.427748495954042 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Pollitechnika Poznańska" }, "geometry": { "type": "Point", "coordinates": [ 16.95564710537797, 52.400306070853091 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Politechnika Poznańska" }, "geometry": { "type": "Point", "coordinates": [ 16.950988592028935, 52.402321772792426 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Uniwersytet Medyczny" }, "geometry": { "type": "Point", "coordinates": [ 16.915360472078877, 52.408926539228119 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Uniwersytet Medyczny\/UAM" }, "geometry": { "type": "Point", "coordinates": [ 16.919151456156282, 52.409807341684939 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Centrum Stomatologii Uniwersytetu Medycznego" }, "geometry": { "type": "Point", "coordinates": [ 16.890209331050716, 52.408626977229154 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Wyższa Szkoła Hotelarstwa i Gastronomii" }, "geometry": { "type": "Point", "coordinates": [ 16.981114514754065, 52.415352210881991 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Politechnika Poznańska" }, "geometry": { "type": "Point", "coordinates": [ 16.97954583168757, 52.416665604882496 ] } }
+]
+}

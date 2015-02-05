@@ -1,0 +1,35 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "id": null, "nazwa": "The Dubliner" }, "geometry": { "type": "Point", "coordinates": [ 16.918151595598818, 52.408019047297742 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Svejkowa Piwnica" }, "geometry": { "type": "Point", "coordinates": [ 16.938578882897261, 52.408384565123733 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Lizard King" }, "geometry": { "type": "Point", "coordinates": [ 16.933007300931852, 52.408954145221465 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Piwnica Farna" }, "geometry": { "type": "Point", "coordinates": [ 16.936619645283052, 52.406727138574887 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "SARP" }, "geometry": { "type": "Point", "coordinates": [ 16.933941000107378, 52.407544187614221 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Guliwer" }, "geometry": { "type": "Point", "coordinates": [ 16.934813473107454, 52.408571313507167 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Pijalnia Wódki i Piwa" }, "geometry": { "type": "Point", "coordinates": [ 16.932999647659926, 52.40673647636369 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Alter Ego" }, "geometry": { "type": "Point", "coordinates": [ 16.932984341116061, 52.407651570077064 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Klub Za Kulisami" }, "geometry": { "type": "Point", "coordinates": [ 16.935194805700153, 52.407347937730805 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Van Gogh" }, "geometry": { "type": "Point", "coordinates": [ 16.935111950712745, 52.40998590683369 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "U kibiców na Malcie" }, "geometry": { "type": "Point", "coordinates": [ 16.981197625021949, 52.399987030450504 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Szwejk" }, "geometry": { "type": "Point", "coordinates": [ 16.915907134359632, 52.40944124897262 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Proletariat" }, "geometry": { "type": "Point", "coordinates": [ 16.933300408509073, 52.406940990176082 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Piwiarnia" }, "geometry": { "type": "Point", "coordinates": [ 16.934227357593819, 52.407241130943 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "NaPiwek" }, "geometry": { "type": "Point", "coordinates": [ 16.936922640317157, 52.407415124655408 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Basilium Woźna" }, "geometry": { "type": "Point", "coordinates": [ 16.93514717630099, 52.408141540990826 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Brogans Irish Pub" }, "geometry": { "type": "Point", "coordinates": [ 16.935083002902815, 52.408685257964798 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Mrowisko" }, "geometry": { "type": "Point", "coordinates": [ 16.936537599928108, 52.409054981678906 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Piwna Stopa" }, "geometry": { "type": "Point", "coordinates": [ 16.936230993692384, 52.408098043343365 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Ministerstwo Browaru" }, "geometry": { "type": "Point", "coordinates": [ 16.925335776757819, 52.40608840526393 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Academic" }, "geometry": { "type": "Point", "coordinates": [ 16.920451468118966, 52.405875256461194 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Colloquium" }, "geometry": { "type": "Point", "coordinates": [ 16.920729552844389, 52.405466355875092 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Corner" }, "geometry": { "type": "Point", "coordinates": [ 16.921021898324959, 52.405570756385039 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Alibi Club" }, "geometry": { "type": "Point", "coordinates": [ 16.919253564686365, 52.405192303360934 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Lars, Lars & Lars" }, "geometry": { "type": "Point", "coordinates": [ 16.894097592601856, 52.401098713181391 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Setka" }, "geometry": { "type": "Point", "coordinates": [ 16.929564090659788, 52.405949206162475 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Nastawnia POC" }, "geometry": { "type": "Point", "coordinates": [ 16.915431682306188, 52.410655632124708 ] } },
+{ "type": "Feature", "properties": { "id": null, "nazwa": "Stajenka Pegaza" }, "geometry": { "type": "Point", "coordinates": [ 16.916173241573986, 52.410138036840706 ] } }
+]
+}
